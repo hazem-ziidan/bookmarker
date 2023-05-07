@@ -1,0 +1,39 @@
+body{
+	background: linear-gradient(-45deg, #312927, #e4d0d8, #6190a1, #367063);
+	background-size: 400% 400%;
+	animation: backgrounnd 15s ease infinite;
+}
+
+@keyframes backgrounnd {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h3{
+	color: #aaa;
+	font-size: 1.17rm;
+}
+.table-container{
+    background-color: #EEE !important;
+}
+
+.h2-text{
+    font-size: 1.5rem;
+}
+
+.site-name , .site-url{
+    font-size: 1rem;
+    color: black;
+}
+footer p{
+	color: #aaa;
+
+}
